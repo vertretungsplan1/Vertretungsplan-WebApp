@@ -1,0 +1,48 @@
+{
+    "pages":{
+        "":{
+            "name":"Start",
+            "page":"start.php"
+        },
+        "start":{
+            "alias":""
+        },
+        "settings":{
+            "name":"Einstellungen",
+            "page":"settings.php"
+        },
+        "filter":{
+            "name":"Filtereinstellungen",
+            "page":"settings_filter.php"
+        },
+        "colors":{
+            "name":"Farbeinstellungen",
+            "page":"settings_colors.php"
+        },
+        "school":{
+            "name":"Informationen zur Schule",
+            "page":"about_school.php"
+        },
+        "admin/users":{
+            "name":"Benutzer für Intern",
+            "page":"admin_users.php",
+            "admin":true
+        },
+        "admin/system":{
+            "name":"System",
+            "page":"admin_system.php",
+            "admin":true
+        }
+    },
+    "navbar_setup":[
+        {"page":"","icon":"home"},
+        {"page":"plan","redir":"../index.php","name":"Plan ansehen","icon":"layout-list"},
+        {"page":"settings","icon":"settings"},
+        {"page":"filter","icon":"filter"},
+        {"page":"colors","icon":"droplet-filled"},
+        {"page":"school","icon":"school"},
+        {"divider":"Administratoreinstellungen:"},
+        {"page":"admin/users","icon":"users"},
+        {"page":"admin/system","icon":"server-2"}
+    ]
+}

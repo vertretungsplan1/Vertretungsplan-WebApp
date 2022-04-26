@@ -1,0 +1,33 @@
+{
+    "version":"3.0.0",
+    "version_intern":"2.0.0",
+    "privacy_policy":"06.03.2022",
+    "copyright_notice":"© Malte Benedikt Slotkowski (MBS), 2022",
+    "vpl_web":"https://vertretungsplan.4lima.de",
+    "vpl_rezen":"https://vertretungsplan.4lima.de/rezension/",
+    "vpl_app_ps":"https://play.google.com/store/apps/details?id=com.mbs.vpl&utm_source=VertretungsplanWebApp",
+    "vpl_mail":"plan.vertretung@gmail.com",
+    "designs":[
+        {"code":"system","style":"system.css"},
+        {"code":"light","style":"light.css"},
+        {"code":"dark","style":"dark.css"},
+        {"code":"plain_light","style":"plain_light.css"},
+        {"code":"plain_dark","style":"plain_dark.css"},
+        {"code":"frosted","style":"frosted.css"}
+    ],
+    "default_colors":["#3db8b8", "#476ad1", "#cc0000", "#1a7d1a", "#b054b0", "#d9a90d", "#318c8c", "#5e80d1", "#940909", "#179c17", "#c744c7", "#b59004"],
+    "asms":[
+            {"kname":"hour","name":"Stunde(n)", "multipurpose":false},
+            {"kname":"date","name":"Datum", "multipurpose":false},
+            {"kname":"class","name":"Klasse(n)", "multipurpose":false},
+            {"kname":"group","name":"Gruppe(n)", "multipurpose":false},
+            {"kname":"subj","name":"stattfindendes Fach", "multipurpose":false},
+            {"kname":"nsubj","name":"normales Fach", "multipurpose":false},
+            {"kname":"room","name":"Raum aufgrund der Änderung", "multipurpose":false},
+            {"kname":"nroom","name":"normaler Raum", "multipurpose":false},
+            {"kname":"teacher","name":"Vertretender Lehrer", "multipurpose":false},
+            {"kname":"nteacher","name":"normaler Lehrer", "multipurpose":false},
+            {"kname":"type","name":"Änderungsart", "multipurpose":false},
+            {"kname":"additional","name":"Informationen", "multipurpose":true}
+        ]
+}
